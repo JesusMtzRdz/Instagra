@@ -35,3 +35,59 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Alinea a la izquierda */
+    align-items: center; /* Centra verticalmente */
+    overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
+    padding: 30px; /* Espaciado opcional */
+  }
+  
+  ion-avatar {
+    width: 100px; /* Cambia el tamaño según lo desees */
+    height: 100px; /* Cambia el tamaño según lo desees */
+    overflow: hidden; /* Para evitar que la imagen se salga del contenedor */
+    margin-right: 50px; /* Espaciado entre avatares */
+  }
+
+  .avatar-text-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  ion-avatar {
+    margin-right: 50px; /* Espacio entre el avatar y el texto */
+    padding: 2px;
+    border: 2px solid var(--ion-color-danger);
+  }
+  
+  .text-content {
+    font-size: 14px; /* Tamaño de fuente para el texto */
+    color: #000; /* Color del texto */
+  }
+  
+  .heart-button {
+    .heart-button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #ec0707ed; /* Fondo rojo transparente para verificar */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+    }
+    
+}
+
+.heart-button ion-icon {
+  font-size: 24px; /* Tamaño del ícono */
+  color: red; /* Color del corazón */
+}
+
+
+
+
+  

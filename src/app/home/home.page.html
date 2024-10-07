@@ -1,20 +1,134 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header mode="ios">
+  <ion-toolbar color="light">
+      <ion-buttons slot="start">
+      <ion-button color="dark">
+    <ion-icon slot="icon-only" name="camera-outline"></ion-icon>
+      </ion-button>
+      </ion-buttons>
+      <ion-title>Instagram</ion-title>
+	     <ion-buttons slot="end">
+	        <ion-button color="dark">
+	       <ion-icon slot="icon-only" name="send-outline"></ion-icon>
+         </ion-button>
+       </ion-buttons>
+   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div class="avatar-container">
+    <div class="avatar-item">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://elespecial.com/wp-content/uploads/2021/12/IMG-20211209-WA0242.jpg" />
+      </ion-avatar>
+      <div class="avatar-name">COSCULLUELA</div>
+    </div>
+    <div class="avatar-item">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://www.thefamouspeople.com/profiles/images/prince-royce-1.jpg" />
+      </ion-avatar>
+      <div class="avatar-name">PRINCE ROYCE</div>
+    </div>
+    <div class="avatar-item">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://diariosocialrd.com/wp-content/uploads/2018/10/JON-Z.jpg" />
+      </ion-avatar>
+      <div class="avatar-name">JON Z</div>
+    </div>
+    <div class="avatar-item">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://static.billboard.com/files/media/02-ozuna-2019-cr-Juan-Albizu-billboard-1548-compressed.jpg" />
+      </ion-avatar>
+      <div class="avatar-name">OZUNA</div>
+    </div>
+    <div class="avatar-item">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://static.americadigital.com/wp-content/uploads/2020/08/americadigital_maluma_2_2020.jpg" />
+      </ion-avatar>
+      <div class="avatar-name">MALUMA</div>
+    </div>
+    <div class="avatar-item">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://assets.manutd.com/AssetPicker/images/0/0/10/126/687707/Legends-Profile_Cristiano-Ronaldo1523460877263.jpg" />
+      </ion-avatar>
+      <div class="avatar-name">CRISTIANO</div>
+    </div>
+    <div class="avatar-item">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://phantom-marca-mx.unidadeditorial.es/303983574e155cbe28c62b816034df9e/resize/1320/f/jpg/mx/assets/multimedia/imagenes/2023/04/18/16818333807571.jpg" />
+      </ion-avatar>
+      <div class="avatar-name">ANDRES</div>
+    </div>
+    <!-- Agrega más avatares -->
   </div>
-</ion-content>
+  
+  <ion-card>
+    
+    <div
+    style="display: flex; align-items: center;">
+    
+    <ion-avatar>
+      <img alt="Silhouette of a person's head" src="https://lastfm.freetls.fastly.net/i/u/ar0/a95f9654de005d918e5818557daaef3d.jpg" />
+    </ion-avatar>
+
+    <ion-card-content>
+      <div>PAULO LONDRA</div>
+      <div>New york</div>
+    </ion-card-content>
+  </div>
+  
+  
+    
+  <ion-card>
+      <img alt="Silhouette of mountains" src="https://media.architecturaldigest.com/photos/5cdadfa704c41e74349a8438/master/pass/GettyImages-931933966.jpg" />
+  
+  </ion-card>
+
+  
+
+  <ion-card-content>
+    <ion-icon name="heart" size="large" class="icon-spacing"></ion-icon>
+    <ion-icon name="chatbubble" size="large" class="icon-spacing"></ion-icon>
+    <ion-icon name="paper-plane" size="large" class="icon-spacing"></ion-icon>
+  </ion-card-content>
+
+  <ion-card-content>
+    <strong>Paulo Londra</strong>
+    Vamos llegando a new york para otro concierto mas!!!!
+  </ion-card-content>
+    
+  <ion-card-content>
+    <strong>Paulo Londra</strong>
+    Vamos llegando a new york para otro concierto mas!!!!
+  </ion-card-content>
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Inicio</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="search">
+        <ion-icon name="search-circle"></ion-icon>
+        <ion-label>Buscar</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="añadir">
+        <ion-icon name="add-circle"></ion-icon>
+        <ion-label>Añadir</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="Reels">
+        <ion-icon name="videocam"></ion-icon>
+        <ion-label>Reels</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="perfil">
+        <ion-icon name="person"></ion-icon>
+        <ion-label>Perfil</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-card>
+  
